@@ -29,6 +29,22 @@ I was born on January 25, 1997. I like to propose new challenges, learn about th
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"  width="30px" height="30px" align="left" style="padding-rigth:10px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"  width="30px" height="30px" align="left" style="padding-rigth:10px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="30px" height="30px" align="left"  style="padding-rigth:10px"/>
-          
-          
+<br>
+<br>
+<br>
 
+
+
+
+----
+
+ ## More about me
+ <a href="https://www.instagram.com/marvin25m/">
+  <img align="left" alt="Marvin's Instagram" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" />
+</a>
+<a href="https://www.linkedin.com/in/marvin-martinez-5394101a9/">
+  <img align="left" alt="Marvin's Facebook" width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" />
+</a>
+<a href="https://www.linkedin.com/in/marvin-martinez-5394101a9/">
+  <img align="left" alt="Marvin's LinkedIN" width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
+</a>
