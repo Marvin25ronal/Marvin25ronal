@@ -32,6 +32,7 @@ I was born on January 25, 1997. I like to propose new challenges, learn about th
 <br>
 <br>
 <br>
+<br />
 <div style="display:flex;flex-direction:'row';justify-content: 'space-around';" >
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Marvin25ronal&show_icons=true&locale=en&layout=compact&theme=blue-green" alt="Marvin25ronal"/>
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=Marvin25ronal&show_icons=true&locale=en&theme=blue-green" alt="Marvin25ronal" />
