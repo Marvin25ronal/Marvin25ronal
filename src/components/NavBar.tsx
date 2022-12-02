@@ -1,60 +1,71 @@
-import { Box, AppBar, Toolbar, IconButton, Typography, Button, Avatar, Container, Menu, MenuItem, Tooltip } from '@mui/material'
-import MenuIcon from '@mui/icons-material/Menu';
-import AdbIcon from '@mui/icons-material/Adb';
-import React, { useState } from 'react';
-import { Image } from '@mui/icons-material';
+
+import { useEffect, useState } from 'react';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
+import logo from '../assets/img/logoOD.png';
+import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.svg';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 const pages = ['Home', 'About', 'Skills', 'Projects'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
+
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home')
   const [scrolled, setScrolled] = useState(false)
+
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true)
+      } else {
+        setScrolled(false)
+      }
+    }
+    window.addEventListener('scroll', onScroll)
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
+    <Router>
+      <Navbar expand="lg"
+        className={scrolled ? 'scrolled ' : ''}
+      >
+        <Container>
+          <Navbar.Brand href="/">
+            <img src={logo} alt="Logo" />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" >
+            <span className="navbar-toggler-icon"></span>
+          </Navbar.Toggle>
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className='me-auto'>
+              {pages.map((page) => (
+                <Nav.Link
+                  key={page}
+                  onClick={() => setActiveLink(page)}
+                  href={`#${page.toLowerCase()}`}
+                  className={activeLink === page.toLowerCase() ? 'active navbar-link' : 'navbar-link'}
+                >
+                  {page}
+                </Nav.Link>
+              ))}
+            </Nav>
+            <span className='navbar-text'>
+              <div className="social-icon">
+                <a href="/"><img src={navIcon1} alt=''/></a>
+                <a href="/"><img src={navIcon2} alt='' /></a>
+              </div>
+            </span>
+          </Navbar.Collapse>
 
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            LOGO
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
+        </Container>
+      </Navbar>
+    </Router>
 
-                sx={{ my: 2, color: 'white', display: 'block' }}
-                href={`#${page.toLowerCase()}`}
-              >
-                <Typography textAlign="center" textTransform={'capitalize'}>{page}</Typography>
-              </Button>
-            ))}
-          </Box>
-          <Box sx={{ flexGrow: 0 }}>
-            <div className='social-icons'>
-              <a href=''>
-                <img src='' />
-              </a>
-            </div>
-          </Box>
-        </Toolbar>
-      </Container>
-    </AppBar>
   )
 }
 
