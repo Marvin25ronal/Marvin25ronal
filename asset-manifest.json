@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/marvin25ronal/static/css/main.655d10da.css",
-    "main.js": "/marvin25ronal/static/js/main.0bea02c4.js",
+    "main.css": "/marvin25ronal/static/css/main.3f5f0855.css",
+    "main.js": "/marvin25ronal/static/js/main.172dad4c.js",
     "static/js/787.0b8746d9.chunk.js": "/marvin25ronal/static/js/787.0b8746d9.chunk.js",
+    "static/media/background.png": "/marvin25ronal/static/media/background.31493dd8c9f675b0ae7f.png",
     "static/media/TitilliumWeb-Light.ttf": "/marvin25ronal/static/media/TitilliumWeb-Light.2b8d1521998c2d55bb51.ttf",
     "static/media/TitilliumWeb-Regular.ttf": "/marvin25ronal/static/media/TitilliumWeb-Regular.e53e0538893d432e0635.ttf",
     "static/media/TitilliumWeb-Bold.ttf": "/marvin25ronal/static/media/TitilliumWeb-Bold.a267a8b6b783d7d62039.ttf",
+    "static/media/nav-icon3.svg": "/marvin25ronal/static/media/nav-icon3.1dd01cc08c3f430ac04e8f6182ad4bf0.svg",
     "index.html": "/marvin25ronal/index.html",
     "static/media/nav-icon1.svg": "/marvin25ronal/static/media/nav-icon1.f49dc1c4e0fdf9f01690dfc43590d569.svg",
     "static/media/nav-icon2.svg": "/marvin25ronal/static/media/nav-icon2.8ec1ec049599abed16e8639835b7c823.svg",
-    "main.655d10da.css.map": "/marvin25ronal/static/css/main.655d10da.css.map",
-    "main.0bea02c4.js.map": "/marvin25ronal/static/js/main.0bea02c4.js.map",
+    "main.3f5f0855.css.map": "/marvin25ronal/static/css/main.3f5f0855.css.map",
+    "main.172dad4c.js.map": "/marvin25ronal/static/js/main.172dad4c.js.map",
     "787.0b8746d9.chunk.js.map": "/marvin25ronal/static/js/787.0b8746d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.655d10da.css",
-    "static/js/main.0bea02c4.js"
+    "static/css/main.3f5f0855.css",
+    "static/js/main.172dad4c.js"
   ]
 }
