@@ -3,11 +3,13 @@ import { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
-import logo from '../assets/img/logoOD.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.svg';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
+import Lottie from 'react-lottie';
+import logo from '../assets/lottie/logo.json'
 const pages = ['Home', 'About', 'Skills', 'Projects'];
 
 
@@ -29,7 +31,14 @@ export const NavBar = () => {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: logo,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   return (
     <Router>
       <Navbar expand="md"
@@ -37,7 +46,11 @@ export const NavBar = () => {
       >
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            {/* <img src={logo} alt="Logo" /> */}
+            <Lottie options={defaultOptions}
+              height={100}
+              width={100}
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" >
             <span className="navbar-toggler-icon"></span>
@@ -59,6 +72,7 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="/"><img src={navIcon1} alt='' /></a>
                 <a href="/"><img src={navIcon2} alt='' /></a>
+                <a href="/"><img src={navIcon3} alt='' /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
