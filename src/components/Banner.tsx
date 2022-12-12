@@ -48,10 +48,10 @@ export default function Banner() {
                             rendererSettings: {
                                 preserveAspectRatio: "xMidYMid slice"
                             },
-                            
+
                         }}
-                            height={500}
-                            width={500}
+                            style={{ aspectRatio: '1' }}
+                            width={'100%'}
                         />
                     </Col>
 
