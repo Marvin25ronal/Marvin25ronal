@@ -48,8 +48,8 @@ export const NavBar = () => {
           <Navbar.Brand href="/">
             {/* <img src={logo} alt="Logo" /> */}
             <Lottie options={defaultOptions}
-              height={100}
-              width={100}
+              height={50}
+              width={50}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" >
