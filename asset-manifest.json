@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marvin25ronal/static/css/main.48dc2c06.css",
-    "main.js": "/marvin25ronal/static/js/main.a1aeee4f.js",
+    "main.css": "/marvin25ronal/static/css/main.b335df6f.css",
+    "main.js": "/marvin25ronal/static/js/main.67283512.js",
     "static/js/787.0b8746d9.chunk.js": "/marvin25ronal/static/js/787.0b8746d9.chunk.js",
     "static/media/background.png": "/marvin25ronal/static/media/background.33cacb5c00487109ee92.png",
     "static/media/TitilliumWeb-Light.ttf": "/marvin25ronal/static/media/TitilliumWeb-Light.2b8d1521998c2d55bb51.ttf",
@@ -14,12 +14,12 @@
     "index.html": "/marvin25ronal/index.html",
     "static/media/nav-icon1.svg": "/marvin25ronal/static/media/nav-icon1.f49dc1c4e0fdf9f01690dfc43590d569.svg",
     "static/media/nav-icon2.svg": "/marvin25ronal/static/media/nav-icon2.8ec1ec049599abed16e8639835b7c823.svg",
-    "main.48dc2c06.css.map": "/marvin25ronal/static/css/main.48dc2c06.css.map",
-    "main.a1aeee4f.js.map": "/marvin25ronal/static/js/main.a1aeee4f.js.map",
+    "main.b335df6f.css.map": "/marvin25ronal/static/css/main.b335df6f.css.map",
+    "main.67283512.js.map": "/marvin25ronal/static/js/main.67283512.js.map",
     "787.0b8746d9.chunk.js.map": "/marvin25ronal/static/js/787.0b8746d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48dc2c06.css",
-    "static/js/main.a1aeee4f.js"
+    "static/css/main.b335df6f.css",
+    "static/js/main.67283512.js"
   ]
 }
