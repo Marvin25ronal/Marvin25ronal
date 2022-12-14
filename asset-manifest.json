@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/marvin25ronal/static/css/main.d3215309.css",
-    "main.js": "/marvin25ronal/static/js/main.d9e796b5.js",
+    "main.css": "/marvin25ronal/static/css/main.48dc2c06.css",
+    "main.js": "/marvin25ronal/static/js/main.a1aeee4f.js",
     "static/js/787.0b8746d9.chunk.js": "/marvin25ronal/static/js/787.0b8746d9.chunk.js",
     "static/media/background.png": "/marvin25ronal/static/media/background.33cacb5c00487109ee92.png",
     "static/media/TitilliumWeb-Light.ttf": "/marvin25ronal/static/media/TitilliumWeb-Light.2b8d1521998c2d55bb51.ttf",
     "static/media/TitilliumWeb-Regular.ttf": "/marvin25ronal/static/media/TitilliumWeb-Regular.e53e0538893d432e0635.ttf",
     "static/media/TitilliumWeb-Bold.ttf": "/marvin25ronal/static/media/TitilliumWeb-Bold.a267a8b6b783d7d62039.ttf",
+    "static/media/revicons.eot": "/marvin25ronal/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/marvin25ronal/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/marvin25ronal/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nav-icon3.svg": "/marvin25ronal/static/media/nav-icon3.1dd01cc08c3f430ac04e8f6182ad4bf0.svg",
     "index.html": "/marvin25ronal/index.html",
     "static/media/nav-icon1.svg": "/marvin25ronal/static/media/nav-icon1.f49dc1c4e0fdf9f01690dfc43590d569.svg",
     "static/media/nav-icon2.svg": "/marvin25ronal/static/media/nav-icon2.8ec1ec049599abed16e8639835b7c823.svg",
-    "main.d3215309.css.map": "/marvin25ronal/static/css/main.d3215309.css.map",
-    "main.d9e796b5.js.map": "/marvin25ronal/static/js/main.d9e796b5.js.map",
+    "main.48dc2c06.css.map": "/marvin25ronal/static/css/main.48dc2c06.css.map",
+    "main.a1aeee4f.js.map": "/marvin25ronal/static/js/main.a1aeee4f.js.map",
     "787.0b8746d9.chunk.js.map": "/marvin25ronal/static/js/787.0b8746d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3215309.css",
-    "static/js/main.d9e796b5.js"
+    "static/css/main.48dc2c06.css",
+    "static/js/main.a1aeee4f.js"
   ]
 }
