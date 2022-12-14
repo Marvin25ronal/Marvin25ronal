@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { CaretRightSquare } from 'react-bootstrap-icons';
+import { Envelope } from 'react-bootstrap-icons';
 import Lottie from 'react-lottie';
 import spaceman from '../assets/lottie/spaceman.json'
 export default function Banner() {
@@ -8,7 +8,7 @@ export default function Banner() {
     return (
         <section className='banner' id="home">
             <Container>
-                <Row className='align-items-center'>
+                <Row className=''>
                     <Col xs={12} md={6} >
                         <Container className="tagline">
                             <span className='hello-text'>
@@ -35,8 +35,8 @@ export default function Banner() {
                             {'I am a Full Stack Developer with a background in Sciences and Systems Engineering. I have a passion for creating and developing web applications and software.'}
                         </p>
                         <button>
-                            <span>Let’s Connect
-                                <CaretRightSquare size={25} />
+                            <span>Contact Me
+                                <Envelope size={25} />
                             </span>
                         </button>
                     </Col>
@@ -51,7 +51,7 @@ export default function Banner() {
 
                         }}
                             style={{ aspectRatio: '1' }}
-                            width={'100%'}
+                            width={'90%'}
                         />
                     </Col>
 

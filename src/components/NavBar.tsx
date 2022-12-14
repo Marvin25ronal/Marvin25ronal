@@ -10,7 +10,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import Lottie from 'react-lottie';
 import logo from '../assets/lottie/logo.json'
-const pages = ['Home', 'About', 'Skills', 'Projects'];
+const pages = ['Home', 'Skills', 'Projects'];
 
 
 export const NavBar = () => {
