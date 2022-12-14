@@ -32,7 +32,7 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     position: relative;
-    background-color: #121212 !important;
+    background-color: #f5f3f4 !important;
     color: #fff !important;
     font-family: 'Titillium Web', sans-serif !important;
 }
@@ -253,7 +253,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
 }
 
 .banner .tagline {
@@ -284,6 +285,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: white;
     transition-property: all;
     transition-duration: .5s;
+    cursor: pointer;
 }
 
 .banner .tagline .name-text:hover {
@@ -363,4 +365,41 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 96%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/* CAROUSEL */
+.technologies-text {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #012a4a;
+}
+
+.carousel {
+    color: black;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+}
+.custom-card{
+    background-color: white;
+    padding: 10px;
+    border-width: 1px;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    margin-bottom: 40px;
 }
